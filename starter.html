@@ -25,12 +25,12 @@
         newimg.style.position = 'absolute';
         newimg.src = 'PacMan1.png';
         newimg.width = 100;
-        //
-        // set position here 
-        //
+        
+        newimg.style.left = position.x;
+        newimg.style.top = position.y;
 
         // add new Child image to game
-        game.appendChild( ? ? ? );
+        game.appendChild(newimg);
         // return details in an object
         return {
             position,
@@ -53,9 +53,12 @@
     }
 
     function checkCollisions(item) {
-        //
-        // detect collision with all walls and make pacman bounce
-        //
+        if(item.position.x <= 0 || item.position.x >= window.innerWidth - 100){
+            item.velocity.x = item.velocity.x * -1;
+        }
+        if(item.position.y <= 0 || item.position.y >= window.innerHeight - 100){
+            item.velocity.y = item.velocity.y * -1;
+        }
     }
 
     function makeOne() {
