@@ -1,8 +1,14 @@
 # Pacmen Factory
 ## Description
+<p>
     This is a project to demonstrate understanding of modifying the DOM through generating Pac-Men at the push of a button and having them bounce around the web page.
+</p>
+
 ## How to Run
+<p>
     Click 'Add Pac-Man' to create a new image of Pac-Man at a random location and giving it a random initial velocity vector. Click 'Start Game' to have all generated and future Pac-Men move around the page at random velocities bouncing off the walls they come in contact with.
+</p>
+
 ## Roadmap of Future Improvements
 <ul>
     <li>Format page and add color</li>
@@ -10,6 +16,7 @@
 </ul>
 
 ## License
+<p>
     MIT License
 
     Copyright (c) 2020 John Williams
@@ -31,4 +38,5 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+</p>
 <img src="PacMan1.png">
